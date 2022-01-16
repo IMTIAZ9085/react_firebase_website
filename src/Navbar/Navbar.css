@@ -1,0 +1,38 @@
+.navbar-bg{
+      /* background-color: #f1f5fd; */
+      background-color: rgba(196, 179, 179, 0.397);
+      padding:1.3rem 0;
+      z-index: 100;
+      position: relative;
+}
+
+.navbar-brand{
+   font-size:2.5rem;
+}
+
+.btn-style{
+      width:10rem;
+      height:3.5rem;
+      border-radius:2rem;
+      color: #fff;
+      background-color:#6f5de7;
+      text-transform: capitalize;
+      font-size: 1.3rem;
+}
+
+.btn-style:first-child{
+      margin-right: 2rem;
+}
+
+.btn-style:hover{
+
+      border: 1px solid #6f5de7;
+      background-color: transparent;
+      color: #6f5de7;
+      box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+a{
+      font-size: 1.5rem;
+     margin-right: 3rem;
+}
