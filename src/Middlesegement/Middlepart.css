@@ -4,3 +4,48 @@
       font-weight:lighter;
       width:75%;
 }
+
+.work-container{
+      width:80vw;
+      height:80vh;
+      padding:5rem;
+      box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.4);
+      border-radius:0.5rem;
+      margin-top: -2rem;
+}
+
+.main-heading{
+      font-size:3rem;
+      font-weight:bolder;
+      margin-bottom: 1rem;
+      word-spacing: 1rem;
+}
+
+.work-container-subdiv{
+      padding:0 6rem;
+}
+
+.subheading{
+      font-size:1.8rem;
+      font-weight:normal;
+
+}
+
+.logo-style{
+font-size:2.2rem;
+color:rgb(69, 45, 177);
+width:6rem;
+height:6rem;
+border-radius:50%;
+background-color:rgba(77, 111, 204, 0.322);
+place-items: center;
+display: grid;
+align-items: center;
+margin: 1.5rem auto;
+}
+
+.main-hero-para{
+      text-align: center;
+      font-size:1.3rem;
+      margin-left: 2rem;
+}

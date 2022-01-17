@@ -2,7 +2,7 @@ const workapi = [
       {
         id: 1,
         logo: "fas fa-download",
-        title: "Downlaod App",
+        title: "Download From PlayStore",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?",
       },
       {
@@ -17,6 +17,7 @@ const workapi = [
         title: "Receive your funds",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?",
       },
+      
     ];
     
     export default workapi;
