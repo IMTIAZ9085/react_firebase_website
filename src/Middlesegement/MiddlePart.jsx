@@ -10,7 +10,7 @@ const MiddlePart = () => {
             <section>
 
                   <div className="work-container container">
-                    <h1 className="main-heading text-center">How To Use</h1>
+                    <h1 className="main-heading text-center">How To Start</h1>
 
                     {/* we can also do this using ES6
                           const {id,logo,title,info} = curr; */}

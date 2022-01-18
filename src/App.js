@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Navbar/Navbar';
 import Header from './Header/Header';
 import MiddlePart from './Middlesegement/MiddlePart';
+import About from './About/About';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar/>
         <Header/>
         <MiddlePart/>
+        <About/>
 </>
 );
 }
