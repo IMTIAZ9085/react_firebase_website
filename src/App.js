@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar';
 import Header from './Header/Header';
 import MiddlePart from './Middlesegement/MiddlePart';
 import About from './About/About';
+import Services from './Services/Services';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <MiddlePart/>
         <About/>
+        <Services/>
 </>
 );
 }
