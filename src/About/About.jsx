@@ -14,7 +14,7 @@ const About = () => {
 
                     {/* //1st section left side */}
                           <div className="col-12 col-lg-5 text-center leftside-img">
-                            <img  style={{height: '32rem', width: '46rem'}} src="abt.jpg" alt="aboutimg" />
+                            <img className="img-fluid"   style={{height: '32rem', width: '46rem'}} src="abt.jpg" alt="aboutimg" />
                           </div>
 
                      {/* 1st section right side data */}
@@ -79,7 +79,7 @@ const About = () => {
 
     {/* //1st section left side */}
     <div className="col-12 col-lg-5 text-center leftside-img">
-          <img  style={{height: '32rem', width: '46rem'}} src="support.jpg" alt="aboutimg" />
+          <img className="img-fluid"  style={{height: '32rem', width: '46rem'}} src="support.jpg" alt="aboutimg" />
         </div>
   </div>
 </div>

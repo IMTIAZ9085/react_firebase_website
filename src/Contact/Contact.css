@@ -1,0 +1,36 @@
+.contact-us-section{
+      margin:8rem 0;
+}
+
+.contact-left img{
+      min-width: 80%;
+      border-radius:50%;
+      max-height: 30rem;
+      margin-left: -3rem;
+      margin-top: -1rem;
+}
+
+.contact-left h1{
+ padding-left: 2rem!important;
+}
+
+.contact-input-field{
+      margin-bottom: 3.5rem;
+}
+
+.form-control{
+      height:4rem;
+      border-radius: 3rem;
+      padding:2rem 2rem;
+      font-size: 1.2rem;
+      font-weight:lighter;
+}
+
+.form-check-input{
+      width:1.5rem;
+      height:1.5rem;
+}
+.form-check-label{
+      margin-top: 0rem;
+      margin-left: -3rem;
+}

@@ -4,6 +4,8 @@ import Header from './Header/Header';
 import MiddlePart from './Middlesegement/MiddlePart';
 import About from './About/About';
 import Services from './Services/Services';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <MiddlePart/>
         <About/>
         <Services/>
+        <Contact/>
+        <Footer/>
 </>
 );
 }
