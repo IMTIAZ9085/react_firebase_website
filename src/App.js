@@ -1,22 +1,22 @@
 import './App.css';
-import Navbar from './Navbar/Navbar';
-import Header from './Header/Header';
-import MiddlePart from './Middlesegement/MiddlePart';
-import About from './About/About';
-import Services from './Services/Services';
-import Contact from './Contact/Contact';
-import Footer from './Footer/Footer';
+import Home from './Home';
+import {Route,Switch} from 'react-router-dom';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Service from './Pages/Service';
+import Error from './Pages/Error';
 
 function App() {
   return (
     <>
-        <Navbar/>
-        <Header/>
-        <MiddlePart/>
-        <About/>
-        <Services/>
-        <Contact/>
-        <Footer/>
+    <Switch>
+    <Route path="/" exact component={Home}></Route>
+    <Route path="/about"  component={About}></Route>
+    <Route path="/contact" component={Contact}></Route>
+    <Route path="/service" component={Service}></Route>
+    <Route  component={Error}></Route>
+    </Switch>
+      
 </>
 );
 }
