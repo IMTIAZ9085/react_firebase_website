@@ -74,10 +74,10 @@ const Contact = () => {
 
                               {/* //form leftside part */}
                               <div className="contact-left col-12 col-lg-5">
-                                     <h1 className="title main-heading">Connect With Us</h1>
-                                     <p className="main-hero-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?</p>
+                                     <h1 className="title main-heading contact-heading">Connect With Us</h1>
+                                     <p className="main-hero-para contact-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?</p>
                                     <figure>
-                                          <img src="contact.jpg" alt="contact-us" className="img-fluid" />
+                                          <img src="contact.jpg" alt="contact-us" className="img-fluid contact-img" />
                                     </figure>
                                      </div>
 

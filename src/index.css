@@ -155,3 +155,118 @@ h1,h2,h3,h4,h5,h6 {
   } */
         
                         }
+
+/* //for mobile devices */
+@media(max-width:998px){
+  .navbar .navbar-collapse{
+    margin-top:1rem;
+    margin-right: 1rem;
+    background-color:rgb(241, 235, 235);
+    padding: 2rem 1rem;
+  }
+
+  .input-group .btn-style{
+    font-size: 1.2rem;
+  }
+
+  .input-group-button,.learn{
+    width: 25%!important;
+  }
+
+  .form-check-label {
+    margin-left: 2rem!important;
+}
+.social{
+  /* margin-right: -4rem!important; */
+  padding-right: 4rem!important;
+}
+.social .logo-style{
+  font-size:2rem!important;
+}
+.leftside-img img{
+  height:90%!important;
+  width:90%!important;
+  /* margin: 2rem 1rem; */
+  margin-top: 1rem!important;
+}
+.contact-img{
+  margin:auto!important;
+}
+.contact-para{
+  margin: auto!important;
+  margin-bottom: 1rem!important;
+}
+
+.contact-heading{
+  margin-left: 1.8rem!important;
+}
+.work-service-container-subdiv{
+  padding:1rem 1rem!important;
+  height:23rem!important;
+  width:32rem!important;
+  margin-left:2rem!important;
+}
+
+form .contact-input-field{
+  width: 90% !important;
+  margin-left:1.5rem!important;
+}
+
+.footer a{
+  /* height:100% !important; */
+  font-size:1.2rem !important;
+}
+
+.footer ul{
+  margin-top: -1.2rem !important;
+}
+
+.footer ul li{
+ margin-top:-1rem !important;
+}
+
+.social .logo-style {
+  /* width: 5rem!important;
+  height: 5rem!important; */
+  font-size: 2.5rem !important;
+  /* /* border-radius: 50%; */
+  background-color: #182334!important; 
+  /* place-items: center; */
+  /* display: grid;
+  align-items: center; */
+  /* margin: 1rem 0rem!important; */
+  margin-right: 2rem !important;
+}
+
+.fend{
+ height: 2rem;
+ width:100%;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+.f-para{
+  margin-left: -0.8rem!important;
+  padding-bottom:3rem!important;
+}
+
+.left-header .main-hero-para{
+ margin-left:3.5rem!important;
+ font-size:1.1rem!important;
+}
+
+.left-header input{
+  width: 30rem !important;
+  /* border: 1px solid black; */
+  /* padding-bottom: 3rem!important; */
+}
+
+.left-header .input-group-button{
+  right: 14%!important;
+}
+
+.right-header img{
+  margin-top:3rem!important
+}
+
+}

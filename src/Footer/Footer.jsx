@@ -2,10 +2,10 @@ import React from 'react'
 import "./Footer.css";
 
 const Footer = () => {
-      return (
+      return ( 
             <>
               <footer>
-                    <div className="container">
+                    <div className="container footer">
                           <div className="row">
                             <div className="col-12 col-lg-9 mx-auto">
                                  
@@ -65,10 +65,10 @@ const Footer = () => {
                                        </div>
                                  </div>
                                <hr/>
-                               <div className="mt-5">
+                               <div className="mt-5 fend">
                                      <p style={{
                                            marginLeft:"2rem"
-                                     }} className="main-hero-para text-center w-100">Copyright @ 2022 IMTIAZ. ALL rights reserved.</p>
+                                     }} className="main-hero-para f-para text-center w-100">Copyright @ 2022 IMTIAZ. ALL rights reserved.</p>
                                </div>
 
                             </div>
